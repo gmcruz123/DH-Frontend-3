@@ -1,0 +1,61 @@
+.cardDark {
+  background-color: #31313196;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  border: 0.5px solid rgb(206, 217, 142);
+}
+
+.favButton {
+  width: 30px;
+  cursor: pointer;
+}
+
+.card:hover {
+  border: 0.5px solid rgb(206, 217, 142);
+}
+
+.CardBody {
+  width: 100%;
+}
+
+.title {
+  height: 2rem;
+}
+
+.card {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 2px 2px #dddddd;
+
+}
+
+.cardImgTop {
+  border-radius: 10px;
+}
+
+.cardTitle {
+  font-weight: 600;
+  font-size: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 230px;
+  display: inline-block;
+  color: rgb(59 187 196);
+
+}
+
+.detailButton,
+.detailButton span {
+  margin-top: 20px;
+  font-weight: 600;
+}
